@@ -138,6 +138,6 @@ def validate_board(board: list) -> bool:
     """
     if (not horisontal_check(board) or
         not row_check(board) or
-            not color_sells_check(board)):
+        not color_sells_check(board)):
         return False
     return True
